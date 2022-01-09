@@ -1,0 +1,12 @@
+target_sources(${PROJECT_NAME}
+    PUBLIC
+        Bin.hpp
+        Bus.hpp
+        Clock.hpp
+        Element.hpp
+        ElementFactory.hpp
+        Message.hpp
+        Object.hpp
+        Pad.hpp
+        Pipeline.hpp
+)

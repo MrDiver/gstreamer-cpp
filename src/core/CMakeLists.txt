@@ -1,0 +1,11 @@
+target_sources(${PROJECT_NAME}
+    PUBLIC
+        Bin.cpp
+        Bus.cpp
+        Element.cpp
+        ElementFactory.cpp
+        Message.cpp
+        Object.cpp
+        Pad.cpp
+        Pipeline.cpp
+)

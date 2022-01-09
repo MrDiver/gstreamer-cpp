@@ -1,0 +1,72 @@
+# Core
+
+- [ ] GstAllocator – allocate memory blocks
+- [ ] GstAtomicQueue – An atomic queue implementation
+- [/] GstBin – Base class and element that can contain other elements
+- [ ] GstBuffer – Data-passing buffer type
+- [ ] GstBufferList – Lists of buffers for data-passing
+- [ ] GstBufferPool – Pool for buffers
+- [/] GstBus – Asynchronous message bus subsystem
+- [ ] GstCaps – Structure describing sets of media formats
+- [ ] GstCapsFeatures – A set of features in caps
+- [ ] GstChildProxy – Interface for multi child elements.
+- [ ] GstClock – Abstract class for global clocks
+- [ ] GstCompat – Deprecated API entries
+- [ ] GstContext – Lightweight objects to represent element contexts
+- [ ] GstControlBinding – attachment for control source sources
+- [ ] GstControlSource – base class for control source sources
+- [ ] GstDateTime – A date, time and timezone structure
+- [ ] GstDevice – Object representing a device
+- [ ] GstDeviceMonitor – A device monitor and prober
+- [ ] GstDeviceProvider – A device provider
+- [ ] GstDeviceProviderFactory – Create GstDeviceProviders from a factory
+- [ ] GstDynamicTypeFactory – Represents a registered dynamically loadable GType
+- [/] GstElement – Abstract base class for all pipeline elements
+- [/] GstElementFactory – Create GstElements from a factory
+- [ ] GstEvent – Structure describing events that are passed up and down a pipeline
+- [ ] GstFormat – Dynamically register new data formats
+- [ ] GstGError – Categorized error messages
+- [ ] GstGhostPad – Pseudo link pads
+- [ ] GstInfo – Debugging and logging facilities
+- [ ] GstIterator – Object to retrieve multiple elements in a threadsafe way.
+- [ ] GstMemory – refcounted wrapper for memory blocks
+- [ ] GstMessage – Lightweight objects to signal the application of pipeline events
+- [ ] GstMeta – Buffer metadata
+- [ ] GstMiniObject – Lightweight base class for the GStreamer object hierarchy
+- [/] GstObject – Base class for the GStreamer object hierarchy
+- [ ] GstPad – Object contained by elements that allows links to other elements
+- [ ] GstPadTemplate – Describe the media type of a pad.
+- [ ] GstParamSpec – GParamSpec implementations specific to GStreamer
+- [ ] GstParse – Get a pipeline from a text pipeline description
+- [/] GstPipeline – Top-level bin with clocking and bus management functionality.
+- [ ] GstPlugin – Container for features loaded from a shared object module
+- [ ] GstPluginfeature – Base class for contents of a GstPlugin
+- [ ] GstPoll – Keep track of file descriptors and make it possible to wait on them in a cancellable way
+- [ ] GstPreset – helper interface for element presets
+- [ ] GstPromise – a miniobject for future/promise-like functionality
+- [ ] GstProtection – Functions and classes to support encrypted streams.
+- [ ] gstquark
+- [ ] GstQuery – Provide functions to create queries, and to set and parse values in them.
+- [ ] GstRegistry – Abstract base class for management of #GstPlugin objects
+- [ ] GstSample – A media sample
+- [ ] GstSegment – Structure describing the configured region of interest in a media file.
+- [ ] GstStreamCollection – Base class for collection of streams
+- [ ] GstStreams – Base class for stream objects
+- [ ] GstStructure – Generic structure containing fields of names and values
+- [ ] GstSystemClock – Default clock that uses the current system time
+- [ ] GstTagList – List of tags and values used to describe media metadata
+- [ ] GstTagsetter – Element interface that allows setting and retrieval of media metadata
+- [ ] GstTask – Abstraction of GStreamer streaming threads.
+- [ ] GstTaskPool – Pool of GStreamer streaming threads
+- [ ] GstToc – Generic table of contents support
+- [ ] GstTocSetter – Element interface that allows setting and retrieval of the TOC
+- [ ] GstTracer – Tracing base class
+- [ ] GstTracerFactory – Information about registered tracer functions
+- [ ] GstTracerRecord – Trace log entry class
+- [ ] gsttracerutils
+- [ ] GstTypefind – Stream type detection
+- [ ] GstTypeFindFactory – Information about registered typefind functions
+- [ ] GstUri – URI parsing and manipulation.
+- [ ] GstUriHandler – Interface to ease URI handling in plugins.
+- [ ] GstUtils – Various utility functions
+- [ ] GstValue – GValue implementations specific to GStreamer
